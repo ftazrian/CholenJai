@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<title>WELCOME TO CHOLEN JAI</title>
+		<link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width =device-width, initial-scale=1">
+		
+	</head>
+	<body>
+		<section id="banner">
+            <img src="image/bus.png" alt="CHOLEN JAI">
+            <div class="banner-text">
+                <h2>Welcome To Cholen Jai</h2>
+                <p>Enjoy and Have a Safe Journey</p>
+                <div class="banner-btn">
+                    <a href="#"><span></span>Login</a>
+                    <a href="#"><span></span>Registration</a>
+                </div>
+                
+            </div>
+        </section>
+        <div is="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+				    <li><a href="#">Contact Us</a></li>
+				    <li><a href="#">Book Tickets</a></li>
+                    <li><a href="#">Availabe Tickets</a></li>
+
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="image/bus.png" id="menu">
+        </div>
+          
+        <!--Feature-->
+        <section id="frature">
+            <div class="title-text">
+                <p>Features</p>
+                <h1>Why Choose This App</h1>
+            </div>
+            <div class="feature-box">
+                <div class="feature">
+                    <h1>Seat Reservation System</h1>
+                    <h1>Ticket Cancellation System</h1>
+                    <h1>Location Tracking</h1>
+                    <h1>Availabe Seats</h1>
+                </div>
+                <div class="feature-img">
+                   <img src="image/images.jpg" alt="">
+            </div>
+        </section>
+            
+
+
+
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right == "-250px";
+
+            menuBtn.oneclick = function(){
+                if(sideNav.style.right =="-250px"){
+                    sideNav.style.right = "0" ;
+                    menu.src = "image/close.png";
+                }
+                else{
+                    sideNav.style.right == "-250px";
+                    menu.src = "image/menu.png";
+                }
+            }
+
+</script>
+         
+			
+	</body>
+</html>

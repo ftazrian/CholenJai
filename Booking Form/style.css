@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(BUS.jpg);
+    background-color: rgb(170, 160, 153);
+  }
+  .box{
+    width: 200px;
+    margin: 20px;
+    border: 2px solid #00e8ff;
+    top: 40%;
+    left: 40%;
+    position:absolute;
+    transform: translate(-50%, -50%);
+    columns: rgb(17, 12, 12);
+    padding: 40px 60px;
+  }
+  .box h1{
+    float: center;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #126ab7;
+    padding-bottom: 5px;
+  }
+  .text{
+    width: 100%;
+    overflow: hidden;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    border-bottom: 1px solid #080808;
+  }
+  .btn{
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid #12b7b7;
+    padding: 0px 50px;
+    border-radius: 5px;
+  }
+  .text input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+
+  }
